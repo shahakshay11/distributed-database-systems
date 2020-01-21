@@ -1,0 +1,25 @@
+Objective 
+- To implement range query on the range and round robin partition table of ratings ( from asst 3)
+- To implement point query on the round robin partition table of ratings ( from asst 3)
+
+Output 
+- PartitionName, UserId, MovieId, Rating
+eg RangeRatingsPart0, 1, 377, 0.5
+RoundRobinRatingsPart0, 1, 377, 0.5
+
+
+Range Query 
+Algorithm/Pseudocode
+1) Using 
+
+
+Imp points
+1) Create Indexes on partitions
+
+
+
+
+
+
+
+1) How to select from round robin partition table
